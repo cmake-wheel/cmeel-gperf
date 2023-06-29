@@ -1,0 +1,20 @@
+[build-system]
+build-backend = "cmeel.build"
+requires = ["cmeel[build]"]
+
+[project]
+description = "cmeel distribution for gperf"
+license = "GPL-3.0-only"
+name = "cmeel-gperf"
+requires-python = ">= 3.8"
+version = "3.1"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-gperf"
+repository = "https://github.com/cmake-wheel/cmeel-gperf.git"
+
+[tool.cmeel]
+py3-none = true
+
+[tool.tomlsort]
+all = true
