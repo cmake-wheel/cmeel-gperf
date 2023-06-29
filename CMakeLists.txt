@@ -11,6 +11,7 @@ ExternalProject_Add(
   DOWNLOAD_EXTRACT_TIMESTAMP OFF
   BUILD_IN_SOURCE ON
   CONFIGURE_COMMAND "./configure" "--prefix=${CMAKE_INSTALL_PREFIX}"
+  "--with-bugurl=https://github.com/cmake-wheel/cmeel-gperf/issues"
   BUILD_COMMAND "make"
   TEST_COMMAND "make" "check"
   INSTALL_COMMAND "make" "install")
