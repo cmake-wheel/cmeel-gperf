@@ -15,7 +15,7 @@ repository = "https://github.com/cmake-wheel/cmeel-gperf.git"
 
 [tool.cmeel]
 build-number = 7
-py3-none = true
+has-sitelib = false
 run-tests = false
 
 [tool.tomlsort]
