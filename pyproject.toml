@@ -12,6 +12,7 @@ version = "3.1"
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-gperf"
 repository = "https://github.com/cmake-wheel/cmeel-gperf.git"
+upstream = "https://www.gnu.org/software/gperf/"
 
 [tool.cmeel]
 build-number = 7
